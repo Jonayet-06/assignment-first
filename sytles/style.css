@@ -189,3 +189,24 @@ main{
     font-size:18px;
     color:rgba(0, 0, 0, 1);
 }
+
+/* Footer Design */
+.footer-design{
+    margin-top:130px;
+    text-align:center;
+    padding:130px 400px;
+    background-color: rgba(242, 237, 237, 1);
+}
+.logo-design{
+    font-weight: 900;
+    font-size: 100px;
+    color:rgba(78, 71, 255, 1);
+}
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline;
+    margin-right:20px;
+    color:rgba(137, 135, 161, 1);
+}
