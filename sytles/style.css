@@ -1,0 +1,191 @@
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Shared Styles */
+.btn-primary{
+    background-color: #4E47FF;
+    color:#FFFFFF;
+    padding:12px 16px;
+    border-radius: 10px;
+    border:none;
+    font-weight:bold;
+    font-size:16px;
+}
+.text-center{
+    text-align:center;
+}
+
+/* Header Styles */
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    margin:0px 158px 150px 150px;
+    align-items: center;
+}
+.logo{
+    font-size:34px;
+    font-weight:900;
+    color:rgba(78, 71, 255, 1);
+}
+
+/* main styles */
+main{
+    max-width:1140px;
+    margin:0 auto;
+}
+
+/* Banner Styles */
+.banner{
+    margin:150px;
+    /* align-items: center; */
+    justify-content:center;
+    display:flex;
+    text-align: center;
+}
+
+.banner-content{
+    max-width:800px;
+    /* justify-content: space-around; */
+    margin-bottom: 150px;
+}
+
+.banner-greetings{
+    font-size:50px;
+    font-weight:bold;
+    color:#252432;
+    text-align:center;
+}
+
+/* Section-First Styles */
+
+.div-align{
+    display:flex;
+    gap:250px;
+}
+.section-title{
+    font-weight:bold;
+    font-size:42px;
+}
+.section-description{
+    font-weight:400;
+    font-size:24px;
+    color:rgba(0, 0, 0, 0.5);
+}
+.primary-image{
+    border-radius:48px;
+}
+
+/* Section-Second Styles */
+
+.bg-color{
+    background-color: rgba(78, 71, 255, 0.1);
+    margin-top:130px;
+    border-radius:24px;
+    padding:50px 150px;
+}
+
+.title-center{
+    text-align:center
+}
+.section-second-align{
+    display:flex;
+    justify-content: space-between;
+}
+.section-h1{
+    font-weight: bold;
+    font-size:80px;
+    color:rgba(78, 71, 255, 1);
+}
+
+/* Section-Third Styles */
+
+.section-third{
+    margin-top:130px;
+}
+.section-card{
+    display:flex;
+    justify-content: space-between;
+    gap:30px;
+}
+.card{
+    background-color: rgba(242, 237, 237, 1);
+    border-radius: 14px;
+    padding:24px;
+}
+.secondary-image{
+    border-radius:50%;
+    width:40px;
+    height:40px;
+}
+.image-text-align{
+    display:flex;
+    align-items: center;
+}
+.text-gap-remove{
+    line-height: 0;
+    padding-left:12px;
+}
+.img-title{
+    color:rgba(117, 117, 117, 1);
+}
+.img-description{
+    color:rgba(179, 179, 179, 1);
+}
+
+/* Section-Fourth Styles */
+
+.section-align{
+    text-align:center;
+    padding:71px 150px;
+    background-color: rgba(242, 237, 237, 1);
+    border-radius: 14px;
+    margin-top:130px;
+}
+.text-btn-gap{
+    margin-bottom:20px;
+}
+.tertiary-image{
+    border-radius: 48px;
+    height:365px;
+    width:840px;
+}
+
+/* Section Fifth Styles */
+
+.section-fifth{
+    margin-top:130px;
+    display:flex;
+    justify-content: space-between;
+}
+.text-change{
+    font-weight: 700;
+    font-size: 100px;
+    color:rgba(0, 0, 0, 1)
+}
+.form-resize{
+    width:90%;
+    padding:20px;
+    margin-bottom: 20px;
+    background-color: rgba(242, 237, 237, 1);
+    border-radius: 10px;
+}
+.text-color-change{
+    font-weight: 500;
+    font-size:18px;
+    color:rgba(0, 0, 0, 1);
+}
